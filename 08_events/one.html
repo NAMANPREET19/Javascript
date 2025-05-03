@@ -31,18 +31,30 @@
     // clientX, clientY, screenX, screenY
     // altkey, ctrlkey, shiftkey, keyCode
 
-    // document.getElementById('images').addEventListener('click', function(e){
+//  ye third wala false jo likha hai neeche (agar na bhi likhe kuch to false is default)
+    // iska mean hai eventbubbling
+    // and true means eventcapturing
+ 
+    // eventbubbling mai andar se bahar jaata hai event means
+    // pehle owl clicked print hoga (joki li hai ul ke under) 
+    //     fir clicked inside print(joki ul hai mtlb li wagerah sab iske under)
+    // andar se bahar bubble jaisa nikala
+
+    // eventcapturing me ulta hoga bahar se andar means capture
+    // pehle 1 print hoga fir 2
+    
+  // 1->  // document.getElementById('images').addEventListener('click', function(e){
     //     console.log("clicked inside the ul");
     // }, false)
 
-    // document.getElementById('owl').addEventListener('click', function(e){
+  // 2->  // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
-    //     e.stopPropagation()
+    //     e.stopPropagation() isse bubbling ruk jaegi
     // }, false)
     
     // document.getElementById('google').addEventListener('click',function(e){
-    //     e.preventDefault();
-    //     e.stopPropagation()
+    //     e.preventDefault(); iska default hai google ki site khulna joki ab nahi hoga
+        // e.stopPropagation() 
     //     console.log("google clicked");
     // }, false)
    
