@@ -2,3 +2,9 @@
 // EVENTS KISI ACTIVITY PE WORK KRTE HAI 
 // ACTIVITY JO BHI SITE PE HOTI HAI EX. CLICK HOVER ETC
 
+// BLOCKING CODE(SYNCHRONUS)
+// block the low of the program
+
+// NON BLOCKING CODE(ASSYNCHRONUS)
+// doesnot block any execution
+
