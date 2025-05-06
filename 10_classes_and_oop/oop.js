@@ -28,7 +28,7 @@ function User(username, loginCount, isLoggedIn){
 
     }
 
-    return this
+    // return this (this me return na bhi kro to default ho jaata hai)
 }
 
 const userOne = new User("hitesh", 12, true)
