@@ -18,6 +18,10 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item, index, arr);
 // } )
 
+// NOTE 
+// forEach does not return anything (unlike .map()).
+// You can’t break out of a forEach loop with break or return.
+
 const myCoding = [
     {
         languageName: "javascript",
