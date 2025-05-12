@@ -13,6 +13,13 @@ const user = {
 // user.username = "sam"
 // user.welcomeMessage()
 
+// NOTE
+// arrow function me pehle function define hoga uske baad hi usse call krske 
+// jbki baaki simple function me usse starting me hi call de skte hai chahe define baad me hua va ho
+
+
+
+
 // console.log(this);
 
 // function chai(){
